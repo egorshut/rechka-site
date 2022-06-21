@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css.css">
+    <script>
+        $('option').click(function(){
+            var href = $(this).data('href');
+            if(href) { location.href = href; }
+        });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="shpk">
+        <img src="logo.png" width="150px" height="100px">
+        <nav>
+            <a href="C:\Users\Dark\Desktop\ПП Шутенков\Главная страница\html.html" style="color: #274582"> МАГАЗИН "РЕЧКА" </a>
+            <form class="spsk">
+                <select name="CTLG">
+                    <option selected>КАТАЛОГ</option>
+                    <option data-href="C:\Users\Dark\Desktop\ПП Шутенков\Каталог катушки\kat.html">КАТУШКИ</option>
+                    <option value="yd">УДИЛИЩА</option>
+                    <option value="spin">СПИНИНГИ</option>
+                    <option value="les">ЛЕСКИ</option>
+                </select>
+            </form>
+            <a href="C:\Users\Dark\Desktop\ПП Шутенков\Отзывы\feed.html" style="color: #274582"> ОТЗЫВЫ </a>
+            <a href="" style="color: #274582"> НОВИНКИ </a>
+            <a href="C:\Users\Dark\Desktop\ПП Шутенков\Корзина\kor.html" style="color: #274582"> КОРЗИНА </a>
+        </nav>
+        <form action="" method="get" class="poisk">
+            <input name="s" placeholder="Искать здесь..." type="search">
+            <button type="submit">Поиск</button>
+        </form>
+        <a href="C:\Users\Dark\Desktop\ПП Шутенков\Вход\input.html" class="shine-button">Вход</a>
+        <a href="C:\Users\Dark\Desktop\ПП Шутенков\Регистрация\reg.html" class="shine-button">Регистрация</a>
+    </div>
+    <div class="body1">
+            <input type="radio" name="slider2" id="slider2_1" checked="checked">
+            <label for="slider2_1"></label>
+            <div><img src="oblj.jfif" class="ph" width="200px"></div>
+            <label for="slider2_2"></label>
+            <input type="radio" name="slider2" id="slider2_2">
+            <label for="slider2_2"></label>
+            <div><img src="slid2.jfif" class="ph"></div>
+    </div>
+    <div class="container">
+        <div class="centered">
+            <h1> Наш адрес ул. Торосова 17, Абакан </h1>
+            <h2> ЛЕТНИЕ СКИДКИ! </h2>
+        </div>
+    </div>
+    <div class="body2">
+        <h1> БРЕНДЫ </h1>
+        <img src="brnd1.png" class="icons" width="300px" />
+        <img src="brnd2.png" class="icons" width="300px" />
+        <img src="brnd3.png" class="icons" width="300px" />
+    </div>
+    <div class="cntcts">
+        <h2>КОНТАКТЫ</h2>
+        <h3>+7 (390) 223-57-25</h3>
+        <a href="#inline" class="modalbox">Позвонить нам</a>
+        <h3>rechka19@mail.ru</h3>
+    </div>
+    <div class="body3">
+        <h1> О НАС </h1>
+        <h4>Магазин качественных товаров для отдыха и рыбалки по демократичным ценам. г. Абакан, ул. Торосова, 17.</h4>
+    </div>
+    <div class="body4">
+        <h1> НОВИНКИ </h1>
+        <img src="kat1.png" class="icns" width="200px" />
+        <a>Kosadaka Infinity</a>
+        <img src="spin1.png" class="icns" width="200px" />
+        <a>Favorite X1 Travel X1</a>
+        <img src="yd1.png" class="icns" width="200px" />
+        <a>Kaida SAGACITY</a>
+    </div>
+</body>
+<footer>
+    <div class="pdvl">
+        <ul>
+            <li> Обратная связь </li>
+            <li> +7 (390) 223-57-25 </li>
+            <li> rechka19@mail.ru </li>
+        </ul>
+        <div class="prklt">
+            <a> Помощь </a>
+            <a> Обмен и возврат </a>
+            <a> Способы оплаты </a>
+            <a href="https://vk.com/rechka19"><img src="vk.png"></a>
+            <a> © Магазин Речка, 2022 </a>
+        </div>
+</footer>
+</html>
